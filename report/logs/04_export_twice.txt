@@ -1,0 +1,4 @@
+$ export-dataset lần 1
+{"dataset_version": "64e7c23ddec6", "frames": 1019, "by_split": {"test": 151, "train": 731, "val": 137}, "trips_by_split": {"train": 18, "val": 4, "test": 4}, "manifest_sha256": "3ac10d1c67efe5998869fd5c40b54e8f773af310934075a4068fb271f1199b93"}
+$ export-dataset lần 2
+{"dataset_version": "64e7c23ddec6", "frames": 1019, "by_split": {"test": 151, "train": 731, "val": 137}, "trips_by_split": {"val": 4, "test": 4, "train": 18}, "manifest_sha256": "3ac10d1c67efe5998869fd5c40b54e8f773af310934075a4068fb271f1199b93"}
