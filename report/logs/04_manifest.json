@@ -1,0 +1,86 @@
+{
+  "dataset_version": "55e5ca990413",
+  "frames": 1019,
+  "by_split": {
+    "train": 707,
+    "val": 120,
+    "test": 192
+  },
+  "by_drive": {
+    "drive_a": 436,
+    "drive_b": 583
+  },
+  "trips_by_split": {
+    "train": 18,
+    "val": 4,
+    "test": 4
+  },
+  "manifest_sha256": "c579af51e313922e9a90619801f5f2105d025ae9f143c1333da7305bd90d8e00",
+  "rules": {
+    "drop": [
+      "is_black",
+      "is_blurry",
+      "is_near_dup",
+      "not sync_ok"
+    ],
+    "split": "per trip, stratified by drive, md5 order"
+  },
+  "lineage": {
+    "bronze.raw_telemetry_a": 0,
+    "bronze.raw_telemetry_b": 0,
+    "bronze.trips_raw": 0,
+    "bronze.video_files": 1,
+    "silver.frames": 27,
+    "silver.telemetry": 0,
+    "silver.frames_flagged": 0,
+    "silver.frame_telemetry": 0,
+    "input_video_sha256": {
+      "drive_b": "bfa62703f645ff77a8578ae3fc74a00881140d38a404d43c8e2af265bbee9fdc",
+      "drive_a": "636ba1a98dfc5ba665d1c935e1d2064e69f4df360ff9ffbd15795957d5e7e9aa"
+    }
+  },
+  "created_at": "2026-10-13T01:59:40.577859+00:00"
+}
+{
+  "dataset_version": "64e7c23ddec6",
+  "frames": 1019,
+  "by_split": {
+    "test": 151,
+    "train": 731,
+    "val": 137
+  },
+  "by_drive": {
+    "drive_a": 436,
+    "drive_b": 583
+  },
+  "trips_by_split": {
+    "train": 18,
+    "test": 4,
+    "val": 4
+  },
+  "manifest_sha256": "3ac10d1c67efe5998869fd5c40b54e8f773af310934075a4068fb271f1199b93",
+  "rules": {
+    "drop": [
+      "is_black",
+      "is_blurry",
+      "is_near_dup",
+      "not sync_ok"
+    ],
+    "split": "per trip, stratified by drive, md5 order"
+  },
+  "lineage": {
+    "bronze.raw_telemetry_a": 0,
+    "bronze.raw_telemetry_b": 0,
+    "bronze.trips_raw": 0,
+    "bronze.video_files": 1,
+    "silver.frames": 27,
+    "silver.telemetry": 0,
+    "silver.frames_flagged": 0,
+    "silver.frame_telemetry": 0,
+    "input_video_sha256": {
+      "drive_b": "bfa62703f645ff77a8578ae3fc74a00881140d38a404d43c8e2af265bbee9fdc",
+      "drive_a": "636ba1a98dfc5ba665d1c935e1d2064e69f4df360ff9ffbd15795957d5e7e9aa"
+    }
+  },
+  "created_at": "2026-10-13T02:00:16.857248+00:00"
+}
